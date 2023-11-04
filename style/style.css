@@ -25,6 +25,10 @@
     padding: 9px 0;
 }
 
+.hamburguer{
+width: 30px;
+}
+
 .hero {
     display: flex;
     background-image: url(../img/Fondo\ bosque.jpg);
