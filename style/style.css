@@ -41,6 +41,8 @@ width: 30px;
 .hero {
     display: flex;
     background-image: url(../img/Fondo\ bosque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 350px;
     justify-content: center;
     align-items: center;
@@ -209,6 +211,46 @@ background-color: #a3ba94;
 
 }
 
+.thematic__item--subtitle {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000000;
+    padding: 25px 17px;
+
+}
+
+.thematic {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.image__thematic {
+    object-fit: cover;
+width: 270px ;
+height: 270px;
+border-radius: 150px;
+
+}
+.thematic__button__register:hover{
+background-color: #668c4d;
+}
+
+.thematic__button__register {
+    background-color: #a3ba94;
+    padding: 15px 20px;
+    border-radius: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-size: 25px;
+}
+
 @media (min-width: 992px) {
     .navbar {
         flex-direction: row;
@@ -267,5 +309,10 @@ background-color: #a3ba94;
         grid-template-rows: repeat(3, 1fr);
         gap: 25px;
     
+    }
+
+    .thematic__item--container {
+        display: flex;
+        justify-content: center;
     }
 }

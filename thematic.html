@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style.css" />
     <title>Cambio Climático</title>
   </head>
@@ -15,10 +21,10 @@
       <nav class="navbar">
         <div id="navController" class="navbar-items close">
           <div class="nav__item">
-            <a href="articles.html">Artículos</a>
+            <a href="index.html">Inicio</a>
           </div>
           <div class="nav__item">
-            <a href="index.html">Inicio</a>
+            <a href="articles.html">Artículos</a>
           </div>
           <div class="nav__item">
             <a href="thematic.html">Temática</a>
@@ -36,72 +42,52 @@
         </div>
        
         <div class="nav__item--hamburguer">
-          <i id="pauli" class="bi bi-list hamburguer"></i>
+          <i style="font-size: 50px;color: white; " id="pauli" class="bi bi-list hamburguer"></i>
           
         </div>
       </nav>
     </header>
-    <section class="hero">
-      <article class="card">
-        <p>PRIMER CONGRESO INTERNACIONAL SOBRE EL CAMBIO CLIMÁTICO</p>
-      </article>
+
+    <section class="thematic">
+      <div class="thematic__item">
+        <h2 class="thematic__item--title">Temática</h2>
+      </div>
+      <div class="thematic__item">
+        <div class="thematic__item--container">
+          <div class="thematic__container--item">
+            <h3 class="thematic__item--subtitle">
+              IMPACTOS DEL CAMBIO CLIMÁTICO
+            </h3>
+            <img class="image__thematic" src="https://socialdigital.iadb.org/sites/default/files/2022-12/cambio-climatico-gente-saludable-1.jpg" />
+          </div>
+          <div class="thematic__container--item">
+            <h3 class="thematic__item--subtitle">
+              ENERGÍA SOSTENIBLE
+            </h3>
+            <img class="image__thematic" src="https://cdn.connectamericas.com/sites/default/files/ThinkstockPhotos-492601585.jpg" />
+          </div>
+          <div class="thematic__container--item">
+            <h3 class="thematic__item--subtitle">
+              TRANSPORTE Y MOVILIDAD SOSTENIBLE
+            </h3>
+            <img class="image__thematic" src="https://www.becas-santander.com/es/blog/transportes-sostenibles/_jcr_content/root/container/responsivegrid/image_416961853.coreimg.jpeg/1684421843397/transportes-sostenibles-2.jpeg" />
+          </div>
+          <div class="thematic__container--item">
+            <h3 class="thematic__item--subtitle">
+              ADAPTACIÓN AL CAMBIO CLIMÁTICO
+            </h3>
+            <img class="image__thematic" src="https://www.ecoavant.com/uploads/s1/71/62/7/nature-conservation-480985-1920.jpeg" />
+          </div>
+        </div>
+      </div>
+      <div class="thematic__item">
+        <a class="thematic__button__register" href="https://docs.google.com/forms/d/e/1FAIpQLSeMKCISvAfPTmFbk_hYduJN4LwZb7mPZPJlvpBP7fB4QXVJlg/viewform?usp=sf_link">INSCRÍBETE</a>
+      </div>
     </section>
 
-    <section class="events">
-      <div class="event__item">
-        <img src="/img/plaza mayor.png" alt="" />
-      </div>
-      <div class="event__item">
-        <img src="/img/Logo universidad.png" alt="" />
-      </div>
-      <div class="event__item button__event">
-        <a class="button__item" href="">QUIERO PARTICIPAR</a>
-      </div>
-    </section>
-
-    <section class="guests">
-
-      <h2 class="guest__title">Invitados</h2>
-
-      <div class="guest-container">
-        <article class="card__guest">
-          <img class="image" src="/img/Greta Thunberg.jpg" alt="Imagen" />
-          <p class="card__guest--description">
-            Greta Thunberg es una activista ecologista sueca que obtuvo
-            reconocimiento internacional por pelear contra el cambio climático.
-          </p>
-        </article>
-  
-        <article class="card__guest">
-          <img class="image" src="/img/Yero sarr.png" alt="Imagen" />
-          <p class="card__guest--description">
-            Yero Sarr, fundador del movimiento climático juvenil de Senegal, activista en redes sociales.
-          </p>
-        </article>
-  
-        <article class="card__guest">
-          <img class="image" src="/img/Sunita Narain.jpg" alt="Imagen" />
-          <p class="card__guest--description">
-            Sunita Narain, una activista india que utiliza el conocimiento para el
-            cambio. Obtuvo el Premio Mundial del Agua.
-          </p>
-        </article>
-  
-        <article class="card__guest">
-          <img class="image" src="/img/Inger Andersen.png" alt="Imagen" />
-          <p class="card__guest--description">
-            Inger Andersen es una ecologista que lidera la lucha de la ONU contra el cambio climático.
-          </p>
-        </article>
-      </div>
-      
-      
-
-      
-    </section>
     <script src="js/index.js"></script>
   </body>
   <footer class="footer">
-    <p class="footer__title"> &copy; Ciberlenguajes 2023</p>
+    <p class="footer__title">&copy; Ciberlenguajes 2023</p>
   </footer>
 </html>
